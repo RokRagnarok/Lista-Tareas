@@ -64,7 +64,7 @@ function Detalle({ route,navigation}) {
             />
           <Button 
             onPress={() => navigation.navigate("Descripccion", {
-                id: 5,
+                id: 6,
                 description: "Ver videos"
             }
             )}
@@ -72,7 +72,7 @@ function Detalle({ route,navigation}) {
             />
             <Button 
             onPress={() => navigation.navigate("Descripccion", {
-                id: 5,
+                id: 7,
                 description: "Ahorrar para Back 4 Blood"
             }
             )}
